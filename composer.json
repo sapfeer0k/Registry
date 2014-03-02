@@ -1,0 +1,21 @@
+{
+    "name": "Sapfeer0k/registry",
+    "description": "Simple registry singleton to store user data",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Sergei Lomakov",
+            "email": "sergei@lomakov.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "target-dir"        : "Sapfeer0k/Registry",
+    "autoload": {
+        "psr-0": {
+            "Sapfeer0k\\Registry": "src/"
+        }
+    }
+}
