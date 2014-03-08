@@ -14,7 +14,7 @@ class Registry extends \ArrayObject  {
     /**
      * @var Registry object
      */
-    protected $_instance;
+    protected static $_instance;
 
     /**
      * Private constructor
