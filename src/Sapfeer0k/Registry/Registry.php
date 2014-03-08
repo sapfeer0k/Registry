@@ -45,7 +45,7 @@ class Registry extends \ArrayObject  {
     public static function get($name)
     {
         if (self::getInstance()->offsetExists($name)) {
-            self::getInstance()->offsetGet($name);
+            return self::getInstance()->offsetGet($name);
         }
         throw new RegistryException("Data for key $name isn't found in storage", RegistryException::VALUE_NOT_FOUND);
     }
